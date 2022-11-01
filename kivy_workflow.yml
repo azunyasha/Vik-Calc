@@ -16,7 +16,7 @@ jobs:
         uses: ArtemSBulgakov/buildozer-action@v1
         id: buildozer
         with:
-          workdir: Vik-Calc
+          workdir: 
           buildozer_version: stable
 
       - name: Upload artifacts
